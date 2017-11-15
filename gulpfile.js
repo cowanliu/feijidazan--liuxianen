@@ -18,7 +18,7 @@ var uglify = require('gulp-uglify'); //js压缩插件
 //压缩js
 
 gulp.task('jsTask', function(){
-	gulp.src('src/js/myPlane.js')
+	gulp.src('src/js/enemy.js')
 	.pipe(babel({"presets": ["es2015"]})) //es6转es5
 	.pipe(uglify()) //js压缩
 	.pipe(gulp.dest('dest/js'));
