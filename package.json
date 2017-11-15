@@ -1,18 +1,25 @@
 {
-  "name": "deno",
+  "name": "package",
   "version": "1.0.0",
-  "description": "this is deom",
-  "main": "index.js",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuxianen/feijidazan--liuxianen.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuxianen/feijidazan--liuxianen/issues"
+  },
+  "homepage": "https://github.com/liuxianen/feijidazan--liuxianen#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "gulp-babel": "^7.0.0",
-    "gulp-htmlmin": "^3.0.0",
     "gulp-uglify": "^3.0.0"
   }
 }
