@@ -1,11 +1,10 @@
 
 
 //子弹
-class Bullet extends Base{
+class Bullet{
 	
 	//属性
 	constructor(){
-		super();
 		this.ele = null;
 	}
 	

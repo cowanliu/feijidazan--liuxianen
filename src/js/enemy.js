@@ -2,11 +2,10 @@
 
 
 //敌机
-class Enemy extends Base{
+class Enemy{
 	
 	//属性
 	constructor(type) {
-		super();
 	    this.ele = null;
 		this.hp = 1; //血量
 		this.speed = 10; //速度
